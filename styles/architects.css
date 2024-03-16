@@ -175,7 +175,7 @@ main{
 }
 .sponsors-img-container {
     margin-top: 50px;
-    padding-left: 120px;
+    padding-left: 600px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -184,6 +184,21 @@ main{
 .sponsors-img-container{
     width: 165px;
     
+    
+}
+/* footer styles */
+.footer{
+    background: #f7ede2;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #727272;
+    text-align: center;
+    margin-left: 370px;
+    border: none;
+    border-radius: 8px;
+    height: 90px;
+    width: 60%;
+
     
 }
 
@@ -204,6 +219,9 @@ main{
     .sponsors-img-container{
         flex-direction: column;
     }
+    .sponsors-img-container{
+        padding-left: 110px;
+    }
     .feature-img img{
         width: 90%;
         margin-left: 0;
@@ -223,6 +241,9 @@ main{
     .facts-card-container{
         gap: 20px;
     }
+    .footer{
+        margin-left: 90px;
+    }
 }
 /* tablet or medium devices */
 @media  screen and (min-width: 576px) and (max-width: 960px) {
@@ -235,6 +256,12 @@ main{
     .sponsors-img-container
     {
         flex-direction: column;
+    }
+    .sponsors-img-container{
+        padding-left: 370px;
+    }
+    .footer{
+        margin-left: 180px;
     }
     
 }
